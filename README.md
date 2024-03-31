@@ -7,14 +7,14 @@ Flask Social Login is a Python package that simplifies the integration of social
 You can install Flask Social Login via pip:
 
 ```bash
-pip install flask-social-login
+pip install flask-social-oauth
 ```
 
 ## Quick Start
 
 ```python
 from flask import Flask, session
-from flask_social_auth import Config, initialize_social_login
+from flask_social_oauth import Config, initialize_social_login
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
