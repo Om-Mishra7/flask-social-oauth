@@ -18,8 +18,8 @@ keywords = ["flask", "social", "auth", "login", "oauth", "google", "github", "di
 
 
 [project.urls]
-Homepage = "https://docs.om-mishra.com/flask-social-login"
-Issues = "https://github.com/om-mishra7/flask-social-login/issues"
-Repository = "https://github.com/om-mishra7/flask-social-login"
+Homepage = "https://docs.om-mishra.com/flask-social-oauth"
+Issues = "https://github.com/om-mishra7/flask-social-oauth/issues"
+Repository = "https://github.com/om-mishra7/flask-social-oauth"
 
 
