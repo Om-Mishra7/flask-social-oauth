@@ -1,10 +1,10 @@
-# Flask Social Login
+# Flask Social OAuth
 
-Flask Social Login is a Python package that simplifies the integration of social login functionality into Flask web applications. With support for popular social authentication providers like Google, GitHub, and Discord, Flask Social Login streamlines the authentication process for users and enables seamless access to your web application.
+Flask Social OAuth is a Python package that simplifies the integration of social oauth functionality into Flask web applications. With support for popular social authentication providers like Google, GitHub, and Discord, Flask Social OAuth streamlines the authentication process for users and enables seamless access to your web application.
 
 ## Installation
 
-You can install Flask Social Login via pip:
+You can install Flask Social OAuth via pip:
 
 ```bash
 pip install flask-social-oauth
@@ -128,12 +128,12 @@ Handles the Discord OAuth callback flow.
 
 ## Documentation
 
-For more detailed usage and configuration, please refer to the [documentation](https://docs.om-mishra.com/flask-social-auth).
+For more detailed usage and configuration, please refer to the [documentation](https://docs.om-mishra.com/flask-social-oauth).
 
 ## Issues and Contributions
 
-If you encounter any issues or have suggestions for improvements, feel free to open an issue on [GitHub](https://github.com/om-mishra7/flask-social-auth/issues). Contributions are also welcome!
+If you encounter any issues or have suggestions for improvements, feel free to open an issue on [GitHub](https://github.com/om-mishra7/flask-social-oauth/issues). Contributions are also welcome!
 
 ## License
 
-Flask Social Login is released under the [MIT License](https://github.com/om-mishra7/flask-social-auth/blob/main/LICENSE).
+Flask Social OAuth is released under the [MIT License](https://github.com/om-mishra7/flask-social-oauth/blob/main/LICENSE).
