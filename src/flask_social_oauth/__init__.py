@@ -25,7 +25,7 @@ def initialize_social_login(session, app, config):
         if sanitized_provider_name == "google":
             validate_auth_config(config, "google")
 
-            from flask_social_auth.handlers import google_login_handler, google_callback_handler
+            from flask_social_oauth.handlers import google_login_handler, google_callback_handler
 
             app.add_url_rule(
                 config.GOOGLE_AUTH_INITIALIZATION_HANDLER_URI,
@@ -42,7 +42,7 @@ def initialize_social_login(session, app, config):
         elif sanitized_provider_name == "github":
             validate_auth_config(config, "github")
 
-            from flask_social_auth.handlers import github_login_handler, github_callback_handler
+            from flask_social_oauth.handlers import github_login_handler, github_callback_handler
 
             app.add_url_rule(
                 config.GITHUB_AUTH_INITIALIZATION_HANDLER_URI,
@@ -59,7 +59,7 @@ def initialize_social_login(session, app, config):
         elif sanitized_provider_name == "discord":
             validate_auth_config(config, "discord")
 
-            from flask_social_auth.handlers import discord_login_handler, discord_callback_handler
+            from flask_social_oauth.handlers import discord_login_handler, discord_callback_handler
 
             app.add_url_rule(
                 config.DISCORD_AUTH_INITIALIZATION_HANDLER_URI,
