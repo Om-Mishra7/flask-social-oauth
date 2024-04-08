@@ -1,5 +1,5 @@
-from flask_social_auth.config import Config
-from flask_social_auth.helpers import sanitize_provider_name, validate_auth_config
+from flask_social_oauth.config import Config
+from flask_social_oauth.helpers import sanitize_provider_name, validate_auth_config
 
 
 def initialize_social_login(session, app, config):
