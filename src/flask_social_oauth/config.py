@@ -69,6 +69,7 @@ class Config:
             google_auth_initialization_handler_wrapper
         )
         self.GOOGLE_AUTH_CALLBACK_HANDLER_WRAPPER = google_auth_callback_handler_wrapper
+        self.SOCIAL_AUTH_PROVIDERS.append("google")
 
     def github_auth(
         self,
@@ -115,6 +116,7 @@ class Config:
             github_auth_initialization_handler_wrapper
         )
         self.GITHUB_AUTH_CALLBACK_HANDLER_WRAPPER = github_auth_callback_handler_wrapper
+        self.SOCIAL_AUTH_PROVIDERS.append("github")
 
     def discord_auth(
         self,
@@ -163,3 +165,4 @@ class Config:
         self.DISCORD_AUTH_CALLBACK_HANDLER_WRAPPER = (
             discord_auth_callback_handler_wrapper
         )
+        self.SOCIAL_AUTH_PROVIDERS.append("discord")

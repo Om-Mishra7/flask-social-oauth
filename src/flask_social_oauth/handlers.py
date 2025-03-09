@@ -338,8 +338,6 @@ def github_callback_handler(config, session):
 
         # Parse the response containing user information
         github_auth_user_info = github_auth_user_info_response.json()
-        print(github_auth_user_info)
-
         # Check if scope has email and if email is present in the user info
         if "email" in config.GITHUB_AUTH_SCOPE and not github_auth_user_info.get(
             "email"
