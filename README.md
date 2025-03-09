@@ -20,5 +20,5 @@ If you encounter any issues, have suggestions for improvements, or want to contr
 
 ## License
 
-Flask Social OAuth is released under the [MIT License](https://github.com/om-mishra7/flask-social-oauth/blob/main/LICENSE). You are free to use, modify, and distribute it under the terms of this license.
+Flask Social OAuth is released under the MIT License. You are free to use, modify, and distribute it under the terms of this license.
 
