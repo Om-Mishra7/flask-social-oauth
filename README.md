@@ -12,7 +12,7 @@ Flask Social OAuth supports authentication via the following platforms:
 
 ## Documentation
 
-For detailed usage, configuration, and implementation examples, please refer to the official [documentation](https://om-mishra.com/docs/flask-social-oauth).
+For detailed usage, configuration, and implementation examples, please refer to the official [documentation](https://om-mishra.com/flask-oauth-docs.html).
 
 ## Issues and Contributions
 
